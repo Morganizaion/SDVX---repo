@@ -6,3 +6,7 @@ trigger tri1 on account (before update)
 }
 	insert acc;
 }
+
+
+
+trying to fetch
