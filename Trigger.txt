@@ -7,6 +7,10 @@ trigger tri1 on account (before update)
 	insert acc;
 }
 
+<<<<<<< HEAD
 
 
 trying to fetch
+=======
+checking from the branch
+>>>>>>> f6552dcabe92dc1d28b491a8b1e9b9a332d7f4b8
