@@ -1,0 +1,11 @@
+trigger tri1 on account (before update)
+{
+	For (account acc:trigger.new){
+	if (discountedprice__c != null){
+		price__c = 'originalprice';
+		else 
+		price = 'discountedprice__c'}
+		return double;
+}
+	insert acc;
+}
